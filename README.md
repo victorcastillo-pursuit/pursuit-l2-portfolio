@@ -1,6 +1,6 @@
 # My L2 Portfolio
 
-AI-native full stack developer with a focus on health and wellness. I build thoughtful, user-centered applications using modern web technologies — from data-driven tools to consumer-facing products.
+AI-native full stack developer with a focus on health and wellness, and 15 years of hands-on experience in telecommunications — spanning cable installation, satellite systems, and field management. I bring an operator's mindset to software: building reliable, user-centered applications that work in the real world.
 
 **Stack:** React · TypeScript · Tailwind CSS · Python · SQL
 
