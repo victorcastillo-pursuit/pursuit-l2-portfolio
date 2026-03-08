@@ -87,7 +87,29 @@ This project is a pixel-perfect desktop adaptation of the Too Good To Go mobile 
 ---
 
 ### [Strava Clone](./strava-clone)
-> Placeholder description for Strava Clone.
+
+Fitness enthusiasts lack a simple, social way to track workouts and stay motivated long-term. Existing solutions are either too complex, too expensive upfront, or lack the community features that drive retention — research shows users with social connections have 3x higher retention than solo trackers.
+
+A freemium social fitness platform where users log workouts, follow friends, give kudos, and engage with a community activity feed. The app demonstrates a strategic freemium business model with social engagement as the free hook, and locked premium features (analytics, leaderboards, goal tracking) as the conversion mechanism — all client-side with no backend required.
+
+**Key Features**
+- Activity logging with auto-calculated pace across 6 activity types (run, ride, swim, hike, walk, other)
+- Social activity feed with kudos and comments for followed users
+- Follow/unfollow system with user search
+- Strategic premium paywall placement on analytics, leaderboards, goals, and personal records
+- Mock upgrade flow that activates premium status and updates the UI
+- Pre-seeded demo data with realistic users and activities
+
+**Tech Stack**
+| Layer | Technologies |
+|---|---|
+| Frontend | React 18, Vite, Tailwind CSS 3 |
+| State | React Context API |
+| Icons | lucide-react |
+| Storage | localStorage (no backend) |
+
+![Activity Feed](./assets/strava-clone/screenshot-1.png)
+![Premium Paywall](./assets/strava-clone/screenshot-2.png)
 
 ---
 
