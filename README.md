@@ -62,7 +62,27 @@ This project replicates Letterboxd's watchlist feature and extends it with a Rou
 ---
 
 ### [Too Good To Go](./toogoodtogo)
-> Placeholder description for Too Good To Go.
+
+Too Good To Go helps reduce food waste by letting users reserve discounted surplus food from local stores — but the app offers no way for users with dietary restrictions to know if a store's surprise bag is safe for them. Users with allergies or specific diets have no visibility before reserving.
+
+This project is a pixel-perfect desktop adaptation of the Too Good To Go mobile app, built as a team. The UI clone replicates the full Discover and Store Detail experience, while the feature improvement adds dietary certification symbols (vegan, dairy-free, gluten-free, nut-free) to the store detail page — giving users the dietary context they need before making a reservation.
+
+**Key Features**
+- Pixel-perfect desktop adaptation of a mobile-only app (centered 480px container)
+- Discover page with category filters, horizontal scrollable store carousels, and live navigation
+- Full store detail page: hero image, ratings, pickup info, packaging, directions, and sticky reserve footer
+- Dietary certification symbols displayed in the allergens section per store
+- Mock data with realistic NYC store names, pricing, pickup windows, and ratings
+
+**Tech Stack**
+| Layer | Technologies |
+|---|---|
+| Frontend | React 19, Vite, Tailwind CSS 3 |
+| Routing | React Router v7 |
+| Icons | lucide-react |
+| Data | Mock JSON (no backend) |
+
+![Store Detail](./assets/toogoodtogo/screenshot-1.png)
 
 ---
 
