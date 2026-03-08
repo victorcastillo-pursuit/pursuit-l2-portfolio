@@ -113,4 +113,29 @@ A freemium social fitness platform where users log workouts, follow friends, giv
 
 ---
 
+### [Common Ground](https://github.com/codingtemple17/common_ground)
+
+People struggling with mental health often lack accessible, community-driven support and structured ways to stay accountable to wellness activities. Existing platforms are either too clinical and isolating, or too broad to provide meaningful mental health-focused community engagement.
+
+Common Ground is a full-stack mental health community platform that connects users around shared wellness activities. It features a personalized onboarding flow, activity discovery and creation, and an automated email reminder system that sends daily mood check-ins and activity reminders to keep users engaged and accountable.
+
+**Key Features**
+- Personalized onboarding flow capturing user preferences, location, and mental health challenges
+- Activity discovery, creation, and personal activity tracking
+- Daily mood check-in reminders delivered via email at 9 AM
+- Automated activity reminder notifications via Python scheduler
+- Full authentication system with login, signup, and user settings
+- Email notification service powered by SendGrid
+
+**Tech Stack**
+| Layer | Technologies |
+|---|---|
+| Frontend | React, Vite, CSS |
+| Backend | Python, Flask |
+| Database & Auth | Supabase |
+| Email | SendGrid |
+| Scheduler | Python APScheduler |
+
+---
+
 *More projects coming soon.*
