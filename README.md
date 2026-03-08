@@ -36,7 +36,28 @@ CarbonLens provides a step-by-step browser-based documentation tool that guides 
 ---
 
 ### [Letterboxd Replica](./letterboxd-replica)
-> Placeholder description for Letterboxd Replica.
+
+Deciding what to watch as a couple or group is a frustrating experience — scrolling through individual watchlists, negotiating preferences, and still landing on a film nobody is fully excited about. Letterboxd's existing watchlist is a solo tool with no native way to match overlapping interests between two users.
+
+This project replicates Letterboxd's watchlist feature and extends it with a Roulette mode — a Tinder-style swipe mechanic that cross-references two watchlists and surfaces movies both users want to watch. State persists locally in the browser with no account or backend required.
+
+**Key Features**
+- Letterboxd-style watchlist grid with hover interactions (add, remove, mark watched, rate)
+- Roulette mode: Tinder-style swipe mechanic to match movies across two watchlists
+- TMDB API integration for real movie search and poster data
+- localStorage persistence — no signup, works offline after load
+- Responsive grid layout (mobile → desktop) with smooth animations
+
+**Tech Stack**
+| Layer | Technologies |
+|---|---|
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS 4 |
+| Icons | lucide-react |
+| Data | TMDB API |
+| Storage | localStorage |
+
+![Watchlist Roulette](./assets/letterboxd-replica/screenshot-1.png)
+![Swipe UI](./assets/letterboxd-replica/screenshot-2.png)
 
 ---
 
